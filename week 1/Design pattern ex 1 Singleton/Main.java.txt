@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+
+        // First object
+        Singleton obj1 = Singleton.getInstance();
+        obj1.showMessage("Hello from First Object");
+
+        // Second object
+        Singleton obj2 = Singleton.getInstance();
+        obj2.showMessage("Hello from Second Object");
+
+        // Check if both objects are same
+        if (obj1 == obj2) {
+            System.out.println("Both objects are same (Singleton works)");
+        } else {
+            System.out.println("Different objects (Singleton failed)");
+        }
+    }
+}
