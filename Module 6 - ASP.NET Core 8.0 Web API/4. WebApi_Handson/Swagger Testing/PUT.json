@@ -1,0 +1,21 @@
+PUT
+
+/api/Employee/2
+
+{
+  "id":2,
+  "name":"David Kumar",
+  "salary":75000,
+  "permanent":true,
+  "department":{
+      "id":102,
+      "name":"HR"
+  },
+  "skills":[
+      {
+          "id":3,
+          "name":"Java"
+      }
+  ],
+  "dateOfBirth":"1999-08-20"
+}

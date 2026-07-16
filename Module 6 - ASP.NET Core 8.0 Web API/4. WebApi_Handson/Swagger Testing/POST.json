@@ -1,0 +1,22 @@
+POST
+
+/api/Employee
+
+
+{
+  "id": 3,
+  "name": "Deepika",
+  "salary": 70000,
+  "permanent": true,
+  "department": {
+    "id": 103,
+    "name": "Testing"
+  },
+  "skills": [
+    {
+      "id": 5,
+      "name": "ASP.NET"
+    }
+  ],
+  "dateOfBirth": "2002-06-15"
+}

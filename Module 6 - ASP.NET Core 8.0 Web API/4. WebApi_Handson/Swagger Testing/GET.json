@@ -1,0 +1,16 @@
+GET
+
+/api/Employee
+
+[
+  {
+    "id":1,
+    "name":"John",
+    "salary":50000
+  },
+  {
+    "id":2,
+    "name":"David",
+    "salary":60000
+  }
+]
